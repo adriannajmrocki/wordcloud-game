@@ -1,0 +1,21 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.congrats { 
+  margin-top: 50px;
+}
+
+.score,
+.points {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.points {
+  color: #1DA1F2;
+  margin-top: 10px;
+}

@@ -1,0 +1,8 @@
+.btn {
+  background-color: inherit;
+  color: #1DA1F2;
+  border: 1px solid #1DA1F2;
+  border-radius: 5px;
+  padding: 12px 40px;
+  cursor: pointer;
+}

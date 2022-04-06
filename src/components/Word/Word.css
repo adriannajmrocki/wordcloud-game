@@ -1,0 +1,24 @@
+.word-container {
+  margin: 15px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.word-container:nth-child(2n) {
+  margin: 25px 70px;
+}
+
+.word {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.checkbox {
+  opacity: 0;
+}
+
+.checkbox:checked + .word {
+  color: #808080;
+}
